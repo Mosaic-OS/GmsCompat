@@ -1,14 +1,14 @@
 <resources>
     <string name="app_name">GmsCompat</string>
     <string name="activity_name">Elkülönített Google Play</string>
-    <string name="reroute_location_requests_to_os_apis">Helyadat-kérések átirányítása a rendszernek</string>
+    <string name="reroute_location_requests_to_os_apis">Helyadat-kérések átirányítása az operációs rendszerhez</string>
     <string name="open_app_info">Alkalmazás adatainak megnyitása</string>
     <string name="open_settings">Beállítások megnyitása</string>
     <string name="persistent_fg_service_notif">Az elkülönített Google Play fut</string>
 
     <string name="usage_guide">Használati útmutató</string>
-    <string name="play_services">Play szolgáltatások</string>
-    <string name="play_services_special_permissions">Play szolgáltatások speciális engedélyei</string>
+    <string name="play_services">Play-szolgáltatások</string>
+    <string name="play_services_special_permissions">Play-szolgáltatások speciális engedélyei</string>
     <string name="play_services_special_permissions_summary">ICC-hitelesítés, RCS-aktiválás</string>
     <string name="play_store">Play Áruház</string>
     <string name="android_auto">Android Auto</string>
@@ -16,8 +16,8 @@
     <string name="component_system_settings">%s alkalmazás adatai</string>
     <string name="gms_network_location_opt_in">Google Helypontosság</string>
     <string name="no_gms_network_location">
-"A Google helyszolgáltatás le van tiltva. Koppintson a(z) “%1$s” elemre további információért.
-Ha kikapcsolva hagyja, érdemes engedélyezni a(z) “%2$s” opciót az alkalmazáskompatibilitás javítása érdekében."
+"A Google helyszolgáltatás le van tiltva. Koppintson a(z) „%1$s” elemre további információért.
+Ha kikapcsolva hagyja, érdemes engedélyezni a(z) „%2$s” opciót az alkalmazáskompatibilitás javítása érdekében."
     </string>
     <string name="revoke_location_permission">Helyadat-jogosultság visszavonása a Play-szolgáltatásoktól</string>
 
@@ -28,19 +28,19 @@ Ha kikapcsolva hagyja, érdemes engedélyezni a(z) “%2$s” opciót az alkalma
 
     <string name="geolocation">Helymeghatározás</string>
     <string name="location_access_is_off_for_all_apps">A helyadat-hozzáférés minden alkalmazásnál ki van kapcsolva.</string>
-    <string name="location_settings">Helyadat beállítások</string>
+    <string name="location_settings">Helyadat-beállítások</string>
     <string name="location_redirection_extra_permissions">
-"A helyadat-kérések az operációs rendszerhez lesznek irányítva, de a Play-szolgáltatások továbbra is rendelkezik helyadat-jogosultsággal."
+"A helyadat-kérések az operációs rendszerhez lesznek irányítva, de a Play-szolgáltatások továbbra is rendelkeznek helyadat-jogosultsággal."
     </string>
     <string name="play_services_no_location_permission">
-"A Play-szolgáltatásoknál a helyadat-jogosultságot “%s”-re kell állítani, és a „Pontos hely használata” engedélyezve kell legyen."
+"A Play-szolgáltatások helyadat-jogosultságát erre kell állítani: „%s”, és engedélyezni kell a „Pontos hely használata” beállítást."
     </string>
     <string name="play_services_no_wifi_control_appop">
-"A Play-szolgáltatásoknak szüksége van a „Wi-Fi vezérlés” jogosultságra a hálózatok felderítéséhez, amit helyadat becslésre használ.
+"A Play-szolgáltatásoknak szüksége van a „Wi-Fi vezérlés” jogosultságra a hálózatok felderítéséhez, amelyet a hely becslésére használ.
 Ezt a Beállítások ⮕ Alkalmazások ⮕ Speciális alkalmazáshozzáférés ⮕ Wi-Fi vezérlés menüpontban engedélyezheti."
     </string>
     <string name="play_services_no_ble_location">
-"A Bluetooth-scannelés alapú helyszolgáltatáshoz a „Közeli eszközök” jogosultság szükséges."
+"A Bluetooth-szkennelésen alapuló helyszolgáltatáshoz a „Közeli eszközök” jogosultság szükséges."
     </string>
     <string name="always_on_scanning_settings">Folyamatos szkennelés beállításai</string>
     <string name="always_on_wifi_scanning_disabled">A folyamatos Wi-Fi szkennelés ki van kapcsolva.</string>
@@ -49,10 +49,10 @@ Ezt a Beállítások ⮕ Alkalmazások ⮕ Speciális alkalmazáshozzáférés �
     <string name="push_notifications">Push értesítések</string>
     <string name="play_services_no_battery_exemption">
 "Ha az eszköz tétlen, a push értesítések késleltetve érkeznek az akkumulátor-kímélés érdekében.
-Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-használat” opciót „Korlátlan”-ra."
+Gyorsabb fogadáshoz állítsa a Play-szolgáltatásoknál az „Akkumulátor-használat” opciót „Korlátlan”-ra."
     </string>
 
-    <string name="pending_play_store_update_notif_title">A Play Áruházat frissítenie kell: %1$s</string>
+    <string name="pending_play_store_update_notif_title">A Play Áruháznak frissítenie kell: %1$s</string>
     <string name="pending_play_store_update_notif_text">Ajánlott engedélyezni. Koppintson a folytatáshoz.</string>
     <string name="play_store_pending_user_action_notif">Művelet szükséges a Play Áruházban</string>
     <string name="missing_permission">Hiányzó jogosultság</string>
@@ -68,17 +68,17 @@ Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-ha
     </string>
 
     <string name="notif_ch_missing_play_games_app">Hiányzó Play Games alkalmazás</string>
-    <string name="missing_play_games_app">%1$s-nak/nek szüksége van a Play Games alkalmazásra</string>
+    <string name="missing_play_games_app">A(z) %1$s alkalmazásnak szüksége van a Play Games alkalmazásra</string>
     <string name="install">Telepítés</string>
 
-    <string name="notif_channel_bg_activity_start">Képernyő megjelenítési kérés</string>
+    <string name="notif_channel_bg_activity_start">Képernyő-megjelenítési kérés</string>
     <string name="notif_bg_activity_start">%s képernyőt szeretne megjeleníteni. Koppintson az engedélyezéshez</string>
 
     <string name="notif_gmscore_missing_nearby_devices_perm_generic">A Play-szolgáltatásoknak szüksége van a „Közeli eszközök” jogosultságra</string>
 
     <string name="notif_missing_nofications_perm">%1$s értesítést próbált megjeleníteni</string>
 
-    <string name="notif_ch_gms_crash">Az elkülönített Google Play összeomlott</string>
+    <string name="notif_ch_app_crash">Alkalmazás-összeomlás</string>
     <string name="notif_gms_crash_title">%1$s összeomlott</string>
     <string name="notif_gms_crash_text">Koppintson a részletekért</string>
     <string name="notif_gms_crash_report">Hibajelentés küldése a fejlesztőknek</string>
@@ -91,7 +91,7 @@ Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-ha
     </string>
     <string name="dont_show_again">Ne mutassa újra</string>
 
-    <string name="missing_speech_services">Ennek az alkalmazáshoz szüksége van a Beszédszolgáltatások komponensre</string>
+    <string name="missing_speech_services">Ennek az alkalmazásnak szüksége van a Beszédszolgáltatások komponensre</string>
 
     <string name="notif_contacts_sync_prompt">
 "Ahhoz, hogy a Google-fiókból névjegyeket szinkronizáljon, a Play-szolgáltatásoknak szüksége van a Névjegyek jogosultságra. Koppintson a beállítások megnyitásához."
@@ -99,21 +99,22 @@ Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-ha
 
     <string name="notif_screen_capture_is_running">A képernyőrögzítés fut</string>
 
-    <string name="notif_GmsCore_missing_nearby_devices_perm_generic">%1$s-hez szükséges, hogy a Play-szolgáltatások rendelkezzenek a „Közeli eszközök” jogosultsággal</string>
+    <string name="notif_GmsCore_missing_nearby_devices_perm_generic">A(z) %1$s működéséhez szükséges, hogy a Play-szolgáltatások rendelkezzenek a „Közeli eszközök” jogosultsággal</string>
 
     <string name="notif_android_auto_needs_baseline_perms_title">Az Android Auto beállítása szükséges</string>
-    <string name="notif_android_auto_needs_baseline_perms_text">Menjen a Beállítások → Alkalmazások → Elkülönített Google Play → Android Auto menüponthoz</string>
+    <string name="notif_android_auto_needs_baseline_perms_text">Menjen a Beállítások ➔ Alkalmazások ➔ Elkülönített Google Play ➔ Android Auto menüponthoz</string>
 
+    <string name="notif_android_auto_car_connection_lost">Az Android Auto autókapcsolat váratlanul megszakadt</string>
     <string name="notif_ch_manage_play_integrity_api">Play Integrity API használata</string>
     <string name="notif_app_used_play_integrity_api_title">Play Integrity API használata</string>
     <string name="notif_app_used_play_integrity_api">%1$s használta a Play Integrity API-t</string>
-    <string name="notif_app_play_integrity_api_blocked">%1$s blokkolva lett a Play Integrity API használatától</string>
+    <string name="notif_app_play_integrity_api_blocked">A(z) %1$s Play Integrity API-használata le lett tiltva</string>
     <string name="notif_app_used_play_integrity_api_action_more_info">További információ</string>
 
-    <string name="sign_in_with_google_notif_ch">Bejelentkezés Google-el</string>
+    <string name="sign_in_with_google_notif_ch">Bejelentkezés Google-lal</string>
     <string name="sign_in_with_google_notif_title">Google hitelesítési szolgáltatás engedélyezése</string>
     <string name="sign_in_with_google_notif_text">
-"A „Bejelentkezés Google-el” művelethez a Google hitelesítési szolgáltatás engedélyezése szükséges. Koppintson a beállítások megnyitásához."
+"A „Bejelentkezés Google-lal” művelethez a Google hitelesítési szolgáltatás engedélyezése szükséges. Koppintson a beállítások megnyitásához."
     </string>
 
     <string name="toast_app_location_access_is_globally_off">A helyadat-hozzáférés minden alkalmazásnál ki van kapcsolva</string>
@@ -126,13 +127,13 @@ Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-ha
     "Ezek a jogosultságok lehetővé teszik az Android Auto számára, hogy:
 
     • USB-n keresztül csatlakozzon az autóhoz
-    • Adatokat küldjön és fogadjon az autó kijelzőjére
+    • Adatokat küldjön az autó kijelzőjére, és fogadjon onnan
     • Az autó kijelzőjén elindítsa azokat az alkalmazásokat, amelyek támogatják az Android Auto használatát
     • Visszaállítsa az USB-portot, és újra csatlakoztassa a csatlakoztatott USB-eszközöket
     "
     </string>
     <string name="audio_routing_perm_title">Engedélyezi a hang átirányítását az eszközről az autóra</string>
-    <string name="audio_routing_perm_confirm">Ez az engedély lehetővé teszi az Android Auto számára, hogy átirányítsa a hanglejátszást és a hangfelvételt az eszközről az autóra. A hangfelvétel csak akkor engedélyezett, ha a Mikrofon engedély engedélyezett.</string>
+    <string name="audio_routing_perm_confirm">Ez az engedély lehetővé teszi az Android Auto számára, hogy átirányítsa a hanglejátszást és a hangfelvételt az eszközről az autóra. A hangfelvétel csak akkor lesz engedélyezve, ha a Mikrofon engedély meg van adva.</string>
     <string name="aauto_wireless_perms_title">Engedélyek megadása a vezeték nélküli Android Auto számára</string>
     <string name="aauto_wireless_perms_confirm">
     "Ezek az engedélyek lehetővé teszik az Android Auto számára a következőket:
@@ -143,8 +144,8 @@ Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-ha
     • A Wi-Fi hálózatok listájának elérése
     • Wi-Fi hálózatokhoz való csatlakozás megerősítés nélkül
     • Az eszköz sorozatszámának, Bluetooth MAC-címének és Wi-Fi MAC-címének olvasása
-    • Az autó kijelzőjén lévő adatok küldése és fogadása
-    • Az Android Auto-hoz feliratkozott alkalmazások indítása az autó kijelzőjén
+    • Adatok küldése az autó kijelzőjére és fogadása onnan
+    • Az Android Auto-t támogató alkalmazások indítása az autó kijelzőjén
 
     A hálózati engedély is megadásra kerül, erre szükség van az autóval Wi-Fi-n keresztüli kommunikációhoz.
     "
@@ -161,10 +162,10 @@ Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-ha
     </string>
     <string name="aauto_app_info_title">Android Auto alkalmazás adatai</string>
     <string name="aauto_app_info_summary">Az alkalmazásinformációs képernyő tartalmazza a szokásos engedélybeállításokat</string>
-    <string name="notif_listener_settings_title">Értesítés hozzáférési beállítások</string>
+    <string name="notif_listener_settings_title">Értesítés-hozzáférési beállítások</string>
     <string name="notif_listener_settings_summary">Válassza ki, hogy az Android Auto mely értesítésekhez férhet hozzá</string>
     <string name="potential_issues_category">Lehetséges problémák</string>
-    <string name="aauto_issue_voice_commands">Hangutasítások</string>
+    <string name="aauto_issue_voice_commands">Hangparancsok</string>
     <string name="aauto_issue_voice_commands_header">A hangparancsok működéséhez:</string>
     <string name="aauto_issue_aauto_no_microphone_perm">Az Android Autónak mikrofonengedélyre van szüksége</string>
     <string name="aauto_issue_gsa_not_installed">A Google alkalmazást a Play Áruházból kell telepíteni</string>
@@ -177,36 +178,36 @@ Gyorsabb fogadáshoz állítsd a Play-szolgáltatásoknál az „Akkumulátor-ha
     <string name="app_dep_installed">Telepítve, koppintson az alkalmazásinformációk megnyitásához</string>
     <string name="app_dep_disabled">Letiltva, koppintson az alkalmazásinformációk megnyitásához</string>
     <string name="google_maps_app">Google Térkép</string>
-    <string name="speech_services_app">Beszédfelismerés és szintézis</string>
+    <string name="speech_services_app">Beszédfelismerés és -szintézis</string>
     <string name="google_search_app">Google alkalmazás</string>
-    <string name="google_messages_app">Google Üzenetküldő</string>
+    <string name="google_messages_app">Google Üzenetek</string>
     <string name="gmscore_settings">Play-szolgáltatások engedélyei</string>
     <string name="gmscore_app_info_title">Play-szolgáltatások alkalmazásinformációi</string>
     <string name="gmscore_app_info_summary">Az alkalmazásinformációs képernyő tartalmazza a szokásos engedélybeállításokat</string>
     <string name="rcs_activation_category">RCS aktiválás</string>
     <string name="gmscore_icc_auth_perms_title">ICC-hitelesítés engedélyezése eszközazonosítókkal</string>
     <string name="gmscore_icc_auth_perms_confirm">
-"Ez az engedély lehetővé teszi a Google Play szolgáltatások számára, hogy:
+"Ez az engedély lehetővé teszi a Google Play-szolgáltatások számára, hogy:
 
 • SIM-kártyája (ICC-alapú hitelesítés) és eszközazonosítói segítségével hitelesítse magát a mobilszolgáltatójánál.
 
-Egyes szolgáltatók jogosultságellenőrzést (GSMA TS.43 EAP-AKA hitelesítéssel) kérnek a telefonszáma ellenőrzéséhez és az RCS aktiválásához a Google Üzenetváltóban. Ez az engedély lehetővé teszi a Google Play szolgáltatások számára, hogy a SIM-kártyáját felhasználva kitöltse az EAP-AKA challenge-response-t a szolgáltató jogosultságkiszolgálójától.
+Egyes szolgáltatók jogosultságellenőrzést (GSMA TS.43 EAP-AKA hitelesítéssel) kérnek a telefonszáma ellenőrzéséhez és az RCS aktiválásához a Google Üzenetekben. Ez az engedély lehetővé teszi a Google Play-szolgáltatások számára, hogy a SIM-kártyáját felhasználva teljesítse a szolgáltató jogosultsági kiszolgálójától érkező EAP-AKA kihívás–válasz hitelesítést.
 "
 </string>
     <string name="rcs_potential_issues">Az RCS aktiválásával kapcsolatos lehetséges problémák</string>
     <string name="rcs_issue_header">Az RCS aktiválásának minimális követelményei a következők:</string>
-    <string name="rcs_issue_gmscore_no_phone_perm">A Google Play szolgáltatásoknak Telefon engedélyre van szüksége</string>
-    <string name="rcs_issue_gmscore_no_internet_perm">A Google Play szolgáltatásoknak hálózati engedélyre van szüksége</string>
-    <string name="rcs_issue_bugle_not_installed">A Google Üzenetváltó alkalmazást a Play Áruházból kell telepíteni.</string>
-    <string name="rcs_issue_bugle_disabled">A Google Üzenetváltót engedélyezni kell</string>
-    <string name="rcs_issue_bugle_not_from_play_store">A Google Üzenetváltó nem a Play Áruházból lett telepítve. Bár az RCS működhet, ez a telepítési mód nem biztos, hogy stabil lesz.</string>
-    <string name="rcs_issue_bugle_not_sms_app">A Google Üzenetváltót kell alapértelmezett SMS-alkalmazásként beállítani</string>
-    <string name="rcs_issue_bugle_no_internet_perm">A Google Üzenetváltónak hálózati engedélyre van szüksége</string>
-    <string name="rcs_issue_not_owner_user">Az RCS a Google Üzenetváltóban jelenleg csak a Tulajdonos felhasználóval működik</string>
-    <string name="rcs_issue_gmscore_no_icc_auth_perm">A Google Play szolgáltatásoknak engedélyre lehet szüksége az eszközazonosítókkal történő ICC-hitelesítéshez</string>
+    <string name="rcs_issue_gmscore_no_phone_perm">A Google Play-szolgáltatásoknak Telefon engedélyre van szüksége</string>
+    <string name="rcs_issue_gmscore_no_internet_perm">A Google Play-szolgáltatásoknak hálózati engedélyre van szüksége</string>
+    <string name="rcs_issue_bugle_not_installed">A Google Üzenetek alkalmazást a Play Áruházból kell telepíteni</string>
+    <string name="rcs_issue_bugle_disabled">A Google Üzenetek alkalmazást engedélyezni kell</string>
+    <string name="rcs_issue_bugle_not_from_play_store">A Google Üzenetek alkalmazás nem a Play Áruházból lett telepítve. Bár az RCS működhet, ez a telepítési mód nem biztos, hogy stabil lesz.</string>
+    <string name="rcs_issue_bugle_not_sms_app">A Google Üzenetek alkalmazást kell alapértelmezett SMS-alkalmazásként beállítani</string>
+    <string name="rcs_issue_bugle_no_internet_perm">A Google Üzenetek alkalmazásnak hálózati engedélyre van szüksége</string>
+    <string name="rcs_issue_not_owner_user">Az RCS a Google Üzenetekben jelenleg csak a Tulajdonos felhasználóban működik</string>
+    <string name="rcs_issue_gmscore_no_icc_auth_perm">A Google Play-szolgáltatásoknak engedélyre lehet szüksége az eszközazonosítókkal történő ICC-hitelesítéshez</string>
     <string name="notif_rcs_needs_baseline_perms_title">Az RCS-nek engedélyekre lehet szüksége</string>
     <string name="notif_rcs_not_owner_user_title">Az RCS nem biztos, hogy működik</string>
-    <string name="notif_rcs_not_owner_user_text">Az RCS jelenleg csak a Tulajdonos felhasználóban működik</string>
+    <string name="notif_rcs_not_owner_user_text">Az RCS jelenleg tudomásunk szerint csak a Tulajdonos felhasználóban működik.</string>
     <string name="notif_rcs_needs_baseline_perms_text">Néhány alkalmazásnak hiányoznak az RCS-engedélyei, és előfordulhat, hogy az aktiválás nem fejeződik be. Koppintson a Play-szolgáltatások speciális engedélyeinek megnyitásához további információkért.</string>
     <string name="notif_rcs_needs_baseline_perms_text_icc">Előfordulhat, hogy a szolgáltatója ICC-hitelesítést kér az RCS beállításához. Koppintson a Play-szolgáltatások speciális engedélyeinek megnyitásához további információkért.</string>
     <string name="notif_rcs_needs_baseline_perms_text_icc_and_other_perms">Előfordulhat, hogy a szolgáltatója ICC-hitelesítést kér az RCS beállításához, és egyéb engedélyekre is szükség van. Koppintson a Play-szolgáltatások speciális engedélyeinek megnyitásához további információkért.</string>

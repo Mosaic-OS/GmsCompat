@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="app.grapheneos.gmscompat"
-    android:versionCode="1009"
+    android:versionCode="1011"
     android:versionName="1"
 >
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -18,11 +18,17 @@
         android:name="app.grapheneos.gmscompat.SHOW_UI"
         android:protectionLevel="signature|privileged" />
 
+    <!-- held only by GMS components that use GmsCompat -->
     <permission
-        android:name="app.grapheneos.gmscompat.SIGNATURE_PROTECTED_PERMISSION"
+        android:name="app.grapheneos.gmscompat.permission.CLIENT"
+        android:protectionLevel="internal" />
+
+    <!-- held only by our package -->
+    <permission
+        android:name="app.grapheneos.gmscompat.permission.SELF"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="app.grapheneos.gmscompat.SIGNATURE_PROTECTED_PERMISSION" />
+    <uses-permission android:name="app.grapheneos.gmscompat.permission.SELF" />
 
     <!-- These permissions are normally declared in GSF and GmsCore. They were moved here because
     of an issue with permissions that have "normal" protectionLevel. If the app that declares a
@@ -56,13 +62,17 @@
             android:foregroundServiceType="specialUse"
         />
 
-        <provider
-            android:name=".RpcProvider"
-            android:authorities="app.grapheneos.gmscompat.RpcProvider"
+        <service
+            android:name=".GmsCompatService"
             android:exported="true"
-            android:directBootAware="true"
-            tools:ignore="ExportedContentProvider"
-        />
+            android:permission="app.grapheneos.gmscompat.permission.CLIENT"
+            android:directBootAware="true" />
+
+        <!-- intentionally not protected by permission, it's bound by GMS clients -->
+        <service
+            android:name=".GmsClientCompatService"
+            android:exported="true"
+            android:directBootAware="true" />
 
         <provider
             android:name=".GservicesProvider"
@@ -97,15 +107,4 @@
             android:exported="true" />
 
     </application>
-
-    <queries>
-        <package android:name="com.google.android.play.games" />
-        <package android:name="app.grapheneos.gmscompat.config" />
-        <package android:name="app.grapheneos.gmscompat.config.dev" />
-        <package android:name="apps.mosaicos.io" />
-        <package android:name="com.google.android.tts" />
-        <intent>
-            <action android:name="android.provider.Telephony.SMS_DELIVER"/>
-        </intent>
-    </queries>
 </manifest>

@@ -17,6 +17,9 @@ MaestroApp__standalone_mode true
 # the GmsCompat crash reporting system
 DeviceDoctor__devicedoctor_enabled false
 
+[com.google.android.gms.backup]
+PhotosReliability__log_bbg1_backup_state_from_scheduled_task false
+
 [com.google.android.gms.enpromo]
 # enpromo is a GmsCore module that shows a notification that prompts the user to enable
 # Exposure Notifications (en). It needs location access to determine which location-specific app
@@ -58,6 +61,9 @@ FastPairFeature__enable_wearable_service false
 # use PackageManager#getNameForUid() instead of PackageManager#getPackagesForUid(), the latter needs
 # a shim that is currently absent
 FastPairConfig__sass_get_package_name_from_playback_configuration false
+# ReceiveSurfaceChimeraService leaves its STATE_CHANGED receiver registered after destruction.
+# Read vendor metadata synchronously to avoid submitting work to its executor after shutdown.
+45789685 false
 
 [com.google.android.gms.cast]
 # Prevent crashes in GmsCore caused by calling ConnectivityManager#registerNetworkCallback too many
@@ -149,6 +155,9 @@ notifyPendingSystemUpdate void
 [android.app.backup.BackupManager]
 isBackupEnabled false
 isBackupServiceActive false
+
+[android.app.role.RoleManager]
+getRoleHolders emptyList
 
 [android.app.supervision.SupervisionManager]
 isSupervisionEnabled false
@@ -366,6 +375,10 @@ disable com.google.android.gms.update.SystemUpdateService
 disable com.google.android.gms.update.UpdateJobService
 
 [[spoof_self_permission_checks_v2]]
+
+[com.google.android.gms]
+# required for Quick Share
+android.permission.ACCESS_MEDIA_LOCATION
 
 [com.google.android.projection.gearhead]
 android.permission.ACCESS_COARSE_LOCATION
